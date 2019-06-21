@@ -182,9 +182,14 @@ nav .ul_align ul {
   font-size: 15pt;
 }
 
-.blocco_secondo img{
-  height: 90px;
-  margin: 10px 0;
+.container_flexbox img {
+  max-width: 150px;
+}
+
+.container_flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .blocco_secondo a {
