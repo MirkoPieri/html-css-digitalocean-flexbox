@@ -1,0 +1,442 @@
+/* nav bar */
+header {
+  background-color: white;
+}
+/* parte superiore */
+.impagin-navbar {
+  padding: 10px;
+  border-bottom: 1px solid lightgrey;
+  font-weight: bold;
+}
+
+.impagin-navbar a {
+  color: grey;
+}
+
+nav .row p {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 2px 5px;
+  background-color: #00D7D2;
+  border: 1px solid #00D7D2;
+  font-size: 8pt;
+  border-radius: 5px;
+}
+
+nav .row li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 5px;
+}
+
+nav .row a {
+  text-decoration: none;
+}
+
+nav .ul_align ul {
+  text-align: right;
+}
+
+.container-fluid .row .color-navbar a:hover {
+  color: #0069FF;
+  text-decoration: none;
+}
+
+/* parte inferiore */
+.container-fluid .row .digital {
+  color: #0069FF;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.container-fluid .row .a_decoration a {
+  color: black;
+  font-size: 11pt;
+}
+
+.container-fluid .row .a_decoration {
+  padding-top: 10px;
+}
+
+.container-fluid .row .a_decoration button {
+  background-color: white;
+  border-style: none;
+}
+
+.container-fluid .row .a_decoration a:hover {
+  color: #0069FF;
+  text-decoration: none;
+}
+
+
+.container-fluid .impagin-navbar button {
+  border-color: #0069FF;
+  color: #0069FF;
+  font-weight: bold;
+  position: relative;
+  left: 100%;
+  transform: translate(-100%, 0);
+}
+
+.container-fluid .impagin-navbar button:hover {
+  background-color: #0069FF;
+  color: white;
+}
+
+/* general primo blocco */
+.sfondo_primoblocco {
+  background-image: url("immagini/homeblue.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px 0;
+}
+
+.primo_blocco h1 {
+  color: white;
+  font-size: 50pt;
+  font-weight: bold;
+}
+
+.primo_blocco p {
+  color: #CCDBFF;
+  font-size: 18pt;
+}
+
+.log_in [class*="col-"] {
+  margin-top: 10px;
+}
+
+.sign-in {
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.sign-in h2 {
+  font-weight: bold;
+}
+
+.sign-in input {
+  width: 95%;
+  border-style: none;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding:10px 10px;
+}
+
+.sign-in input:focus {
+  border-color: #0069FF;
+}
+
+
+.sign-in button {
+  width: 95%;
+  border-style: none;
+  font-weight: bold;
+  font-size: 13pt;
+}
+
+.sign-in .create_account button{
+  color: white;
+  border: 1px solid #15CD72;
+  background-color: #15CD72;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.sign-in .create_account button:hover{
+  border: 1px solid #11C46C;
+  background-color: #11C46C;
+}
+
+.sign-in .google button{
+  color: black;
+  border-bottom: 1px solid lightgrey;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.sign-in .google button:hover{
+  background-color: lightgrey;
+}
+
+.sign-in p {
+  display: inline-block;
+  color: grey;
+}
+
+
+/* secondo blocco */
+.blocco_secondo {
+  padding: 60px 0;
+  text-align: center;
+  color: grey;
+  text-transform: uppercase;
+  background-color: #F3F5F9;
+}
+
+.blocco_secondo h2 {
+  font-size: 15pt;
+}
+
+.blocco_secondo img{
+  height: 90px;
+  margin: 10px 0;
+}
+
+.blocco_secondo a {
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+.blocco_secondo a:hover {
+  text-decoration: none;
+}
+
+/* blocco terzo */
+.blocco_text {
+  padding-top: 50px;
+}
+
+.blocco_text h2 {
+  font-weight: bold;
+  text-align: center;
+  color: #031B4E;
+  font-size: 28pt;
+}
+
+.blocco_text p {
+  text-align: center;
+  color: gray;
+  font-size: 15pt;
+  padding-top: 15px;
+}
+
+.display_a {
+  margin: 80px 0;
+}
+
+.height_terzo {
+    height: 300px;
+}
+
+.display_a a {
+  display: block;
+  padding-top: 20px;
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13pt;
+}
+
+.display_a a:hover {
+  color: #031B4E;
+}
+
+.text_terzoblocco {
+  margin-bottom: 10px;
+}
+
+.text_blocco h3 {
+  color: #031B54;
+}
+
+.text_blocco p {
+  color: grey;
+  font-size: 12pt;
+}
+
+/* blocco quarto */
+.blocco_quarto {
+  padding: 80px 0;
+  background-color: #F3F5F9;
+}
+
+.image_quarto {
+  margin-top: 50px;
+  padding: 0 30px;
+}
+
+.text_sottoimg {
+  font-size: 10pt;
+  margin-top: 30px;
+}
+
+/* quinto blocco */
+.text_quintoblocco {
+  padding: 50px 10px;
+}
+
+.text_quintoblocco h3 {
+  padding: 20px 0;
+  color: #031B4E;
+  font-weight: bold;
+}
+
+.text_quintoblocco p {
+  padding-bottom: 20px;
+  color: gray;
+  font-size: 13pt;
+}
+
+.text_quintoblocco a {
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: #0069FF;
+  font-size: 13pt;
+}
+
+.text_quintoblocco a:hover {
+  text-decoration: none;
+  color: #031B4E;
+}
+
+/* blocco sesto */
+.blocco_quinto {
+  background: #031b4e url(https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.text_quinto h2{
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-size: 28pt;
+}
+
+.table_margin {
+  margin: 30px 0;
+  padding-top: 20px;
+}
+
+table {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.text_quinto tr {
+  border-bottom: 1px solid grey;
+}
+
+.text_quinto table tr td:last-child{
+ text-align: right;
+}
+
+
+.text_quinto th {
+  text-transform: uppercase;
+}
+
+.text_quinto td, .text_quinto th {
+  padding-top: 10px;
+  color: white;
+}
+
+.text_quinto td a {
+  color: #00D1C1;
+  font-weight: bold;
+}
+
+.text_quinto td a:hover {
+  color: #0069FF;
+  text-decoration: none;
+}
+
+/* settimo blocco */
+.blocco_settecentrale {
+  margin-top: 30px;
+  width: 65%;
+  padding: 40px;
+  background-color: white;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.blocco_settecentrale h4 {
+  padding: 40px 0;
+  font-size: 20pt;
+  color: grey;
+}
+
+.blocco_settecentrale h6 {
+  font-size: 12pt;
+  color: black;
+}
+
+.blocco_settecentrale p {
+  font-size: 12pt;
+  color: grey;
+}
+
+.blocco_settecentrale a {
+  padding: 40px 0;
+  font-weight: bold;
+  color: #0069FF;
+  font-size: 13pt;
+}
+
+/* ottavo blocco */
+.ottavo_blocco {
+  background-image: url("immagini/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0;
+}
+
+.ottavo_blocco button {
+  padding: 10px 30px;
+  background-color: white;
+  color: #0069FF;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.ottavo_blocco button:hover {
+  filter:opacity(70%);
+}
+
+/* footer */
+footer {
+  background-color: #010E28;
+  padding: 80px;
+}
+
+footer h4 {
+  padding-top: 30px;
+  color: white;
+}
+
+footer a {
+  display: block;
+  color: gray;
+  padding-top: 10PX;
+}
+
+footer #logodigital {
+  color: #0069FF;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+footer p {
+  color: gray;
+}
+
+footer .social a {
+  padding: 20px 0;
+  filter: opacity(20%);
+}
+
+footer .social a:hover {
+  filter: opacity(100%);
+}
