@@ -391,7 +391,7 @@ table {
 
 /* ottavo blocco */
 .ottavo_blocco {
-  background-image: url("immagini/bg.jpg");
+  background-image: url("immagini/homeblue.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 40px 0;
@@ -424,7 +424,7 @@ footer h4 {
 footer a {
   display: block;
   color: gray;
-  padding-top: 10PX;
+  padding-top: 10px;
 }
 
 footer #logodigital {
@@ -444,4 +444,21 @@ footer .social a {
 
 footer .social a:hover {
   filter: opacity(100%);
+}
+
+.footer_flexbox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.flex_social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bloc_a {
+  margin: 0 20px;
 }
